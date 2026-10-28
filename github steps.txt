@@ -1,0 +1,58 @@
+To host a website on GitHub Pages without using any complex programming commands, you can do everything directly through your web browser.
+You can upload and host your project on GitHub for free using their simple web interface. Think of GitHub like a Google Drive specifically built for websites, and GitHub Pages as the switch that makes that drive visible to the public as a working website. [1] (https://www.youtube.com/watch?v=e5AwNU3Y2es), [2] (https://www.youtube.com/watch?v=b2r9Cdvssi0&vl=en), [3] (https://docs.github.com/articles/creating-project-pages-manually), [4] (https://github.com/orgs/community/discussions/166984)
+
+⚠️ Two Golden Rules Before You Start
+
+• The Homepage Name: Your main website file must be named exactly index.html (all lowercase). GitHub looks for this specific file to know which page to show visitors first. [1] (https://gist.github.com/TylerFisher/6127328), [2] (https://docs.github.com/articles/creating-project-pages-manually)
+• File Location: The index.html file and your other assets (like images or CSS styling folders) must sit right in the main folder of your project, not buried inside another sub-folder. [1] (https://gist.github.com/TylerFisher/6127328), [2] (https://docs.github.com/articles/creating-project-pages-manually)
+
+Step 1: Create a Free GitHub Account
+
+1. Go to the GitHub website.
+2. Click Sign up in the top right corner.
+3. Follow the prompts to enter your email, create a password, and choose a unique username.
+4. Verify your email address through the link sent to your inbox. [1] (https://www.khanacademy.org/computing/computer-programming/html-css/web-development-tools/a/hosting-your-website-on-github)
+
+Step 2: Create a "Repository" (Project Folder)
+
+On GitHub, projects are kept in folders called Repositories (or "Repos" for short). [1] (https://www.youtube.com/watch?v=tlu5e0TxSzo&t=192), [2] (https://github.com/orgs/community/discussions/166984)
+1. Log into your account and click the + (plus) icon in the top-right corner, then select New repository.
+2. Repository name: Type a short name for your project (e.g., my-first-website).
+3. Public/Private: Choose Public. (GitHub Pages requires a public repository to host websites for free).
+4. Leave everything else exactly as it is and click the green Create repository button at the bottom. [1] (https://docs.github.com/en/pages/quickstart), [2] (https://www.youtube.com/watch?v=tlu5e0TxSzo&t=192), [3] (https://www.youtube.com/watch?v=e5AwNU3Y2es), [4] (https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-pages/)
+
+Step 3: Upload Your Files
+
+1. On the page that appears, look for the sentence that says: "Quick setup — if you’ve done this kind of thing before" or look for a link that says uploading an existing file. Click that link.
+2. Drag and drop your website files (your index.html, your CSS styling sheets, and any image folders) directly into the box on your screen.
+3. Scroll down to the bottom to the Commit changes box. Think of a "commit" as clicking "Save" on a document.
+4. In the short summary box, type a simple note like "My first upload".
+5. Click the green Commit changes button. Wait a brief moment while GitHub processes your files. [1] (https://www.youtube.com/watch?v=M_x2r36WC4s&t=1223), [2] (https://www.youtube.com/watch?v=tlu5e0TxSzo&t=192), [3] (https://www.khanacademy.org/computing/computer-programming/html-css/web-development-tools/a/hosting-your-website-on-github), [4] (https://www.freecodecamp.org/news/host-your-first-project-on-github/), [5] (https://gist.github.com/TylerFisher/6127328)
+
+Step 4: Turn on GitHub Pages (Hosting)
+
+Now that your files are saved online, you just need to tell GitHub to turn them into a live website. [1] (https://www.youtube.com/watch?v=b2r9Cdvssi0&vl=en)
+1. At the top of your repository page, click on the Settings tab (it looks like a little gear icon).
+2. Look at the menu on the left side of the screen. Scroll down to the "Code, planning, and automation" section and click on Pages.
+3. Look for the Build and deployment section in the middle of the page.
+4. Under Branch, change the dropdown menu from None to main (or sometimes master).
+5. Leave the next folder dropdown set to / (root) and click Save. [1] (https://github.com/orgs/community/discussions/166984), [2] (https://docs.github.com/en/pages/quickstart), [3] (https://dev.to/seonglinchua/uploading-to-github-pages-a-step-by-step-guide-4f1a), [4] (https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-pages/)
+
+Step 5: View Your Live Website!
+
+1. Wait about 1 to 2 minutes for GitHub's servers to build your site behind the scenes.
+2. Refresh the Pages settings menu where you just clicked save.
+3. At the top of that section, you will see a success message that says: "Your site is live at..." followed by a web link.
+4. Click that link to open your brand-new, live website! You can share this link with anyone in the world. [1] (https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-pages/), [2] (https://gist.github.com/TylerFisher/6127328), [3] (https://www.khanacademy.org/computing/computer-programming/html-css/web-development-tools/a/hosting-your-website-on-github), [4] (https://docs.github.com/en/pages/quickstart), [5] (https://github.com/orgs/community/discussions/166984), [6] (https://docs.github.com/articles/creating-project-pages-manually)
+
+🛠️ Summary Matrix
+
+
+Step	Action Item	Core Purpose	What to Look For
+1	Sign Up	Create an online space for your work.	"Sign up" button on GitHub homepage.
+2	New Repo	Create a digital folder to store project files.	The + icon ➔ "New repository".
+3	Upload & Commit	Transfer your local design files onto the web.	"uploading an existing file" link.
+4	Enable Pages	Tell GitHub to host the files as a webpage.	Settings ➔ Pages ➔ Change branch to main.
+5	Launch Site	Grab the live link and test the website.	Top of the Pages screen after 1–2 minutes.
+
+Did you run into any error messages, or are your images failing to load on the live link? I can help you troubleshoot why your files might not be linking together perfectly.

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Katha Canvas Analytics Dashboard — Shraddha Kothe</title>
+<meta name="description" content="An interactive analytics dashboard to track artwork performance, visitor engagement, and platform activity. Built with Excel and Power BI.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Instrument+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/case-study.css">
+<style>
+:root{--bg:#F6F0E6;--ink:#2A2233;--muted:#6f6676;--faint:#E4D9C8;--line:#DCCFBA;--accent:#D77F27;--project:#B8432F;--next:#1d1a3a;--mat:linear-gradient(145deg,#fffdf8,#f1e6d3);--link:#9E5D1C;--hint:#b9b3d9;--glow:#e8a31755;--embed-pad:8px;--embed-r:16px;--embed-shadow:rgba(90,45,20,.38)}
+.page::before{content:"";position:absolute;top:0;right:0;z-index:-1;width:min(60vw,520px);aspect-ratio:1;background:radial-gradient(circle at 70% 20%,#e8a31740,transparent 65%);pointer-events:none}
+.page{background:var(--bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.8' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 .2 0 0 0 0 .15 0 0 0 0 .1 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+</style>
+</head>
+<body>
+<div class="page"><main class="col">
+  <div class="topbar e" style="--i:0">
+    <a class="back" href="../index.html#work" aria-label="Back to home"><svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M13 8H3M7 4L3 8l4 4"/></svg></a>
+    <nav class="pn" aria-label="Case studies"><a class="back" rel="prev" href="spotify-analytics.html" aria-label="Previous: Spotify Analytics Dashboard" title="Previous: Spotify Analytics Dashboard"><svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M13 8H3M7 4L3 8l4 4"/></svg></a><a class="back" rel="next" href="credit-card-analytics.html" aria-label="Next: Credit Card Analytics Dashboard" title="Next: Credit Card Analytics Dashboard"><svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></nav>
+  </div>
+
+  <header>
+    <div class="tag e" style="--i:1"><i></i>Analytical dashboard</div>
+    <h1 class="e" style="--i:1"><span class="ser">Katha</span> Canvas Analytics Dashboard</h1>
+    <p class="summary e" style="--i:2">An interactive analytics dashboard to track artwork performance, visitor engagement, and platform activity.</p>
+    <dl class="meta">
+      <div class="e" style="--i:4"><dt>Role</dt><dd>Analytics &amp; visual design</dd></div>
+      <div class="e" style="--i:5"><dt>Tool</dt><dd>Power BI</dd></div>
+      <div class="e" style="--i:6"><dt>Year</dt><dd>2025</dd></div>
+      <div class="e" style="--i:7"><dt>Live</dt><dd><a class="rw" data-roll href="#dash">View dashboard ↓</a></dd></div>
+    </dl>
+  </header>
+
+  <div class="blocks">
+    <section class="block e" style="--i:8" id="dash" aria-labelledby="dash-title">
+      <h2 class="sec-title" id="dash-title">Interactive dashboard</h2>
+      <div class="embed" id="embed">
+        <div class="sk">Loading dashboard…</div>
+        <iframe title="Katha Canvas Analytics Dashboard" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiN2E5NDQyMDItMzJhMS00MjI0LWJmMGYtMTA4NTBlYzk2Y2YzIiwidCI6ImVmOTg4MTgyLTM1M2EtNDIzYS05NDUyLTQ3YTc1ZjVjNmFlNyJ9" frameborder="0" allowFullScreen="true" loading="lazy"></iframe>
+      </div>
+      <div class="bar"><span>Interactive: click charts to cross-filter.</span>
+        <div><button class="chip" id="fs" type="button"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M2 6V2h4M14 6V2h-4M2 10v4h4M14 10v4h-4"/></svg>Full screen</button>
+        <a class="chip" target="_blank" rel="noopener" href="https://app.powerbi.com/view?r=eyJrIjoiN2E5NDQyMDItMzJhMS00MjI0LWJmMGYtMTA4NTBlYzk2Y2YzIiwidCI6ImVmOTg4MTgyLTM1M2EtNDIzYS05NDUyLTQ3YTc1ZjVjNmFlNyJ9">Open in new tab ↗</a></div></div>
+      <p class="rot">Tip: on a phone, go full screen and rotate to landscape.</p>
+    </section>
+
+    <section class="block block--text e" style="--i:11">
+      <h2>Overview</h2>
+      <div class="body"><p>An interactive analytics dashboard designed to track artwork performance, visitor engagement, and platform activity through clear and actionable visual insights.</p></div>
+    </section>
+
+    <section class="block block--text" data-reveal>
+      <h2>Purpose</h2>
+      <div class="body"><ul class="list"><li>Monitor artwork views and QR scan performance.</li><li>Analyze artist engagement and visitor behavior.</li><li>Track audience reach across different cities.</li><li>Support data-driven decisions for content and engagement growth.</li></ul></div>
+    </section>
+
+    <section class="block block--text" data-reveal>
+      <h2>Design perspective</h2>
+      <div class="body"><ul class="list"><li>Clean and minimalist layout focused on readability.</li><li>KPI cards provide instant performance snapshots.</li><li>Balanced use of trend lines, bar charts, and donut charts for quick analysis.</li><li>Warm color palette and structured sections enhance the user experience.</li></ul>
+      <p>The palette borrows from canvas, ink and saffron: warm neutrals let the data lead, and one terracotta carries emphasis.</p>
+      <div class="swatches" role="img" aria-label="Colour palette"><i style="--c:#B8432F"></i><i style="--c:#D9822B"></i><i style="--c:#1d1a3a"></i><i style="--c:#2A2233"></i><i style="--c:#F6F0E6"></i></div></div>
+    </section>
+
+    <section class="block block--text" data-reveal>
+      <h2>Conclusion</h2>
+      <div class="body"><p>Katha Canvas transforms engagement and artwork data into meaningful insights, enabling stakeholders to understand audience interactions, measure performance, and identify growth opportunities at a glance.</p></div>
+    </section>
+
+    <section class="block block--text" data-reveal>
+      <h2>Tools used</h2>
+      <div class="body"><ul class="tools"><li>Excel</li><li>Power BI</li><li>DAX</li><li>Data Modeling</li><li>Data Visualization</li><li>PowerPoint</li></ul></div>
+    </section>
+  </div>
+</main></div>
+
+<aside class="next" aria-label="Up next"><a href="credit-card-analytics.html"><small>Up next</small><b>Credit Card Analytics Dashboard</b><span class="go"><svg width="20" height="20" viewBox="0 0 16 16" fill="none" stroke="#fff" stroke-width="1.6"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span></a></aside>
+
+<script src="../assets/js/case-study.js" defer></script>
+</body>
+</html>
